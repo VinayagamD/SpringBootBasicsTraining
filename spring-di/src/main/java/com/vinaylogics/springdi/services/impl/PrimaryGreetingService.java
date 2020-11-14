@@ -1,12 +1,14 @@
 package com.vinaylogics.springdi.services.impl;
 
 import com.vinaylogics.springdi.services.GreetingService;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
-/*@Service*/
-public class GreetingServiceImpl implements GreetingService {
+@Service
+@Primary
+public class PrimaryGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hello World";
+        return "Hello World - Primary";
     }
 }
