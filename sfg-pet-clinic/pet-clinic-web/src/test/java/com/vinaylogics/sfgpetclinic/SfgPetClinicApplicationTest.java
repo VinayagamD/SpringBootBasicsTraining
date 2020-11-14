@@ -1,13 +1,13 @@
 package com.vinaylogics.sfgpetclinic;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class SfgPetClinicApplicationTests {
+import static org.junit.jupiter.api.Assertions.*;
 
+class SfgPetClinicApplicationTest {
     @Test
     void contextLoads() {
     }
+
 
 }

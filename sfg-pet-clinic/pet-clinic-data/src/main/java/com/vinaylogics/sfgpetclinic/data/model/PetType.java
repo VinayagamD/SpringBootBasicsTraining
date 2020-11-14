@@ -1,4 +1,4 @@
-package com.vinaylogics.sfgpetclinic.model;
+package com.vinaylogics.sfgpetclinic.data.model;
 
 public class PetType {
 
