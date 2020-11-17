@@ -43,5 +43,6 @@
 
     <scm>
         <connection>scm:git:git@github.com:VinayagamD/SpringBootBasicsTraining.git</connection>
+        <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
 </project>
