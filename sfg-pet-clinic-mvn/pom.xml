@@ -6,6 +6,7 @@
         <java.version>15</java.version>
         <springboot.version>2.4.0</springboot.version>
         <sfg.version>0.0.1-SNAPSHOT</sfg.version>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
     <modules>
@@ -20,22 +21,21 @@
     </parent>
     <groupId>com.vinaylogics</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>${sfg.version}</version>
     <name>sfg-pet-clinic</name>
     <description>Demo Spring Boot Pet Clinic Using Maven</description>
 
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
                 </configuration>
@@ -44,7 +44,6 @@
     </build>
 
     <scm>
-        <connection>scm:git:git@github.com:VinayagamD/SpringBootBasicsTraining.git</connection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
-  </scm>
+        <developerConnection>scm:git:git@github.com:VinayagamD/SpringBootBasicsTraining.git</developerConnection>
+    </scm>
 </project>
